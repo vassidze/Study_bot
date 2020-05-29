@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 import http
-http.server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000))) 
+
 #from telebot import apihelper
 #apihelper.proxy = {'http':'http://89.46.238.133'}
 
@@ -55,3 +55,4 @@ def callback_worker(call):
         bot.send_message(call.message.chat.id, mat)
 
 bot.polling(none_stop=True, interval=0)
+http.server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000))) 
