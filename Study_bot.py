@@ -54,5 +54,4 @@ def callback_worker(call):
         mat = "Кинетика:" + ' ' + kin + '\n' + "Английский:" + ' ' + eng + '\n' + "Биохимия:" + ' ' + bha + '\n' + "Микра:" + ' ' + mic + '\n' + "Генинж:" + ' ' + gen + '\n'
         bot.send_message(call.message.chat.id, mat)
 
-bot.polling(none_stop=True, interval=0)
 http.server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000))) 
