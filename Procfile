@@ -1,2 +1,1 @@
-web: python Study_bot.py
-heroku ps:scale web=1
+web: gunicorn run_server:server
