@@ -1,6 +1,7 @@
 import telebot
 from telebot import types
-
+import http
+http.server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000))) 
 #from telebot import apihelper
 #apihelper.proxy = {'http':'http://89.46.238.133'}
 
