@@ -1,8 +1,9 @@
 import telebot
 from telebot import types
 
-#from telebot import apihelper
-#apihelper.proxy = {'http':'http://89.46.238.133'}
+from telebot import apihelper
+apihelper.proxy = {'http':"http://studybot.herokuapp.com"}
+
 
 bot = telebot.TeleBot('1234251686:AAEDDfcaP3NhTLryQEFk8YU07Ypf4N91tDg')
 
