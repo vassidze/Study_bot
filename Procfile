@@ -1,1 +1,1 @@
-web: python Study_bot.py
+bot: python Study_bot.py
