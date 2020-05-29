@@ -1,1 +1,1 @@
-bot: python Study_bot.py
+worker: python Study_bot.py
